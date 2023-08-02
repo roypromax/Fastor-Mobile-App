@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.title {
+  font-family: "Urbanist", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33.8px;
+  color: #1e232c;
+}
+
+.subtitle {
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #8391a1;
+}
+
+.inputContainer {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputField {
+  border: 1px solid #dadada;
+  border-radius: 8px;
+  width: 330px;
+  height: 56px;
+  font-size: 16px;
+  font-family: "Urbanist", sans-serif;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f7f8f9;
+}
+
+.loginButton {
+  border: none;
+  border-radius: 8px;
+  width: 330px;
+  height: 56px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
+  color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #ff6d6a;
+  cursor: pointer;
+}
