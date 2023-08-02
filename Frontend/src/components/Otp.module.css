@@ -1,0 +1,57 @@
+.otpContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+  border: 1px solid red;
+}
+
+.title {
+  font-family: "Urbanist", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33.8px;
+  color: #1e232c;
+}
+
+.subtitle {
+  font-family: "Urbanist", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #8391a1;
+}
+
+.inputContainer {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  width: 330px;
+}
+
+.inputField {
+  width: 40px;
+  height: 56px;
+  font-size: 16px;
+  font-family: "Urbanist", sans-serif;
+  text-align: center;
+  border: 1px solid #dadada;
+  border-radius: 8px;
+  background-color: #f7f8f9;
+}
+
+.verifyButton {
+  margin-top: 20px;
+  width: 330px;
+  height: 56px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: "Urbanist", sans-serif;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  background-color: #ff6d6a;
+  cursor: pointer;
+}
