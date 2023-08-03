@@ -32,7 +32,6 @@ const Otp = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     if (otp.join("") === "123456") {
-      alert("OTP verified");
       navigate("/dashboard");
     } else {
       alert("Invalid OTP");
