@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.greeting {
+  font-family: "Urbanist", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 33.8px;
+  color: #1e232c;
+}
