@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Otp.module.css";
 
@@ -10,6 +10,10 @@ const Otp = () => {
   const otpRefs = otpArray.map((element, index) => {
     return useRef(null);
   });
+
+  useEffect(() => {
+    otpRefs[0].current.focus();
+  }, []);
 
   const handleChange = (index, value) => {
     value = value.slice(0, 1);
