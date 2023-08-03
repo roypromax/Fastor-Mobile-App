@@ -12,6 +12,10 @@
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
 .image {
   width: 40%;
   height: 200px;
